@@ -6,33 +6,38 @@
 
 .site {
     width: auto;
-    
     .header {
+        height: 600px;
+        background-image: url("./455904.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
         .navbar {
-            height: 150px;
-            background-color: #1F2035FF;
+            height: 100px;
+            background-color: rgba(31, 32, 53, 0.514);
             padding-right: 100px;
             padding-left: 50px;
             display: flex;
             justify-content: space-between;
             align-items: center;
 
-            ul{
+            ul {
                 list-style: none;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 gap: 30px;
 
-                a{
-                    font-size: 25px;
+                a {
+                    font-size: 20px;
                     text-decoration: none;
                     color: white;
                 }
             }
+
             img {
                 width: 200px;
-                height: 150px;
                 object-fit: cover;
             }
         }

@@ -7,9 +7,16 @@
 .site {
   width: auto;
 }
+.site .header {
+  height: 600px;
+  background-image: url("./455904.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .site .header .navbar {
-  height: 150px;
-  background-color: #1f2035;
+  height: 100px;
+  background-color: rgba(31, 32, 53, 0.514);
   padding-right: 100px;
   padding-left: 50px;
   display: flex;
@@ -24,13 +31,12 @@
   gap: 30px;
 }
 .site .header .navbar ul a {
-  font-size: 25px;
+  font-size: 20px;
   text-decoration: none;
   color: white;
 }
 .site .header .navbar img {
   width: 200px;
-  height: 150px;
   -o-object-fit: cover;
      object-fit: cover;
 }/*# sourceMappingURL=style.css.map */
