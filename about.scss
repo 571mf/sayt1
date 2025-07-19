@@ -12,13 +12,13 @@
     .rasm {
         width: 1550px;
         height: 100vh;
-        background: url(./images\ \(3\).jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.478), rgba(0, 0, 0, 0.386)), url("./about-bg.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+        background-attachment: fixed;
         object-fit: cover;
         // position: fixed;
-        background-color: rgba(0, 0, 0, 0.407);
         // z-index: 2;
 
         .navbar {
