@@ -31,6 +31,10 @@
   text-decoration: none;
   color: white;
 }
+.site .navbar ul li :hover {
+  color: blue;
+  transition: all 1.5s;
+}
 .site .navbar img {
   width: 150px;
   -o-object-fit: cover;
